@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined%22");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons%22");
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.prod-card-container{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    width:20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.prod-card-img{
+    height:20rem;
+}
+
+.prod-card-title{
+    padding : 0.25rem;
+    font-size:1rem;
+}
+
+.prod-card-price{
+    font-size:1.25rem;
+    padding: 0.25rem;
+}
+
+.prod-card-cartbtn{
+    width:100%;
+    outline:none;
+    border: none;
+    height:2rem;
+    font-size: 1rem;
+    background-color:rgb(97, 159, 231);
+    color:white;
+    cursor: pointer;
+}
+
+.prod-card-wishlistbtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color:gray;
+    border-radius: 50%;
+    width:2rem;
+    height:2rem;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: 0.5rem;
+}
+
+
