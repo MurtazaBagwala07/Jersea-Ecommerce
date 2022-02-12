@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined%22");
-@import url("https://fonts.googleapis.com/icon?family=Material+Icons%22");
-
+@import url(../../css/colors.css);
 
 .prod-card-container{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -30,10 +28,10 @@
     width:100%;
     outline:none;
     border: none;
-    height:2rem;
+    height:3rem;
     font-size: 1rem;
-    background-color:rgb(97, 159, 231);
-    color:white;
+    background-color:var(--primary-color);
+    color:var(--text-color);
     cursor: pointer;
 }
 
@@ -41,7 +39,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    background-color:gray;
+    background-color:var(--text-color);
     border-radius: 50%;
     width:2rem;
     height:2rem;
@@ -49,6 +47,7 @@
     justify-content:center;
     align-items:center;
     margin: 0.5rem;
+    cursor: pointer;
 }
 
 
