@@ -1,11 +1,7 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined%22");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons%22");
 
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
-}
+
 .prod-card-container{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     position: relative;
