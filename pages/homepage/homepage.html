@@ -4,19 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://divine-ui.netlify.app/css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="../../css/main.css">
-    <title>Document</title>
+    <title>Jersea</title>
 </head>
 <body>
     <header>
         <nav class="ecom-nav-container">
             <p class="ecom-nav-title">Jersea Store</p>
-            <input class="ecom-nav-searchbar" type="text" placeholder="Search"/>
+            <div class="ecom-nav-searchbar">
+                <input class="ecom-nav-searchbar-input" type="text" placeholder="Search"/>
+                <button class="search-btn"><i class="fa fa-search"></i></button>
+            </div>
+           
             <div class="ecom-nav-action-btns">
                 <button class="ecom-nav-action-btn nav-btn-login">Login</button>
-                <button class="ecom-nav-action-btn"><i class="fas fa-shopping-cart"></i></button>
-                <button class="ecom-nav-action-btn"><i class="fas fa-heart"></i></button>
+                <div class="ecom-nav-action-btn badge">
+                    <i class="fas fa-shopping-cart ecom-nav-icon"></i>
+                    <span class="badge-number">6</span>
+                </div>
+             
+                <div class="ecom-nav-action-btn badge">
+                    <i class="fas fa-heart ecom-nav-icon"></i>
+                    <span class="badge-number">6</span>
+                </div>
             </div>
         </nav>
     </header>
@@ -24,14 +36,28 @@
         <div class="grid4-container">
             <div class="grid4-title">Wear jerseys of the best clubs</div>
             <div class="grid-4">
-                <div class="grid-4-item">Real Madrid Jerseys</div>
-                <div class="grid-4-item">Barcelona Jerseys</div>
-                <div class="grid-4-item">AC Milan Jerseys</div>
-                <div class="grid-4-item">Bayern Munich Jerseys</div>
+                <div class="grid-4-item">
+                    <img class="grid-4-image" src="https://imageio.forbes.com/specials-images/imageserve/5fd148842c66ab6967c0b012/Real-Madrid-v-Borussia-Moenchengladbach--Group-B---UEFA-Champions-League/960x0.jpg?fit=bounds&format=jpg&width=960" alt="realmadrid-img">
+                    <span class="grid-4-image-caption">Real-Madrid</span>
+                </div>
+                <div class="grid-4-item">
+                    <img class="grid-4-image" src="https://imageio.forbes.com/specials-images/imageserve/5fd148842c66ab6967c0b012/Real-Madrid-v-Borussia-Moenchengladbach--Group-B---UEFA-Champions-League/960x0.jpg?fit=bounds&format=jpg&width=960" alt="realmadrid-img">
+                    <span class="grid-4-image-caption">Real-Madrid</span>
+                </div>
+                <div class="grid-4-item">
+                    <img class="grid-4-image" src="https://imageio.forbes.com/specials-images/imageserve/5fd148842c66ab6967c0b012/Real-Madrid-v-Borussia-Moenchengladbach--Group-B---UEFA-Champions-League/960x0.jpg?fit=bounds&format=jpg&width=960" alt="realmadrid-img">
+                    <span class="grid-4-image-caption">Real-Madrid</span>
+                </div>
+                <div class="grid-4-item">
+                    <img class="grid-4-image" src="https://imageio.forbes.com/specials-images/imageserve/5fd148842c66ab6967c0b012/Real-Madrid-v-Borussia-Moenchengladbach--Group-B---UEFA-Champions-League/960x0.jpg?fit=bounds&format=jpg&width=960" alt="realmadrid-img">
+                    <span class="grid-4-image-caption">Real-Madrid</span>
+                </div>
             </div>
         </div>
         <div class="grid1-container">
-            <div class="grid1-title">Real Madrid 2017-18 Special Edition</div>
+            <div class="grid1-title">Real Madrid 2017-18 Special Edition
+                <button class="grid-1-shopbtn">Buy Now</button>
+            </div>
             <div class="grid-1">
             </div>
         </div>
@@ -47,6 +73,7 @@
                     <div class="grid-2-description">
                         Inter Milan 2020-21 Home kit
                     </div>
+                    <button class="grid-2-shopbtn">Shop Now</button>
                 </div>
             </div>
             <div class="grid-2-item-container">
@@ -60,6 +87,7 @@
                     <div class="grid-2-description">
                         Real Betis 2020-21 Home kit
                     </div>
+                    <button class="grid-2-shopbtn">Shop Now</button>
                 </div>
             </div>
         </div>
