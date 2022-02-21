@@ -2,3 +2,8 @@
 @import url(../components/navigation/navigation.css);
 @import url(../components/productCard/productCard.css);
 @import url(../pages/homepage/homepage.css);
+@import url(../pages/productListing/productListing.css);
+@import url(../pages/cart/cart.css);
+@import url(../pages/wishlist/wishlist.css);
+@import url(../pages/sign-in/sign-in.css);
+@import url(../pages/sign-up/sign-up.css);

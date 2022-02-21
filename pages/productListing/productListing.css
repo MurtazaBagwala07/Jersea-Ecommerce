@@ -1,0 +1,11 @@
+.main-content-listing{
+    display: flex;
+    flex-direction: row;
+}
+
+.product-listing-main{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem;
+    margin: 3rem 6rem;
+}

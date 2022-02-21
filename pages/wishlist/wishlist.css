@@ -1,0 +1,23 @@
+.main-content-wishlist{
+    margin-top:1rem;
+    display: flex;
+    flex-direction:column;
+    padding:0rem 4rem;
+    justify-content:center;
+    align-items: center;
+}
+
+.wishlist-title{
+    font-size:2rem;
+    margin: 1rem;
+}
+
+.wishlist-prod-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:2rem;
+}
+
+.wishlisted{
+    color: var(--heart-fill-red);
+}
