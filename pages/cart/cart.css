@@ -5,10 +5,13 @@
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    font-family:var(--font);
 }
 
 .cart-title{
-    font-size:1.75rem;
+    font-size:2rem;
+    font-weight:bolder;
+    color: var(--primary-color);
 }
 
 .cart-container{
@@ -73,7 +76,7 @@
 
 .prod-sell-price{
     font-size: 1.75rem;
-    font-weight: 550;
+    font-weight:600;
 }
 
 .prod-total-price{
@@ -98,7 +101,19 @@
 }
 
 .card-detailed-action-btn{
-    height:1.75rem;
+    height:1.9rem;
+    outline:none;
+    border: none;
+    background-color:var(--primary-color);
+    color: var(--text-color);
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.card-detailed-action-btn:hover{
+    border: 0.1rem solid var(--primary-color);
+    color:var(--primary-color);
+    background-color: var(--text-color)
 }
 
 .cart-summary-container{
@@ -133,4 +148,12 @@
     border: none;
     color:var(--text-color);
     background-color: var(--primary-color);
+    border-radius: 0.2rem;
+}
+
+.cart-order-button:hover{
+    border: 0.1rem solid var(--primary-color);
+    color:var(--primary-color);
+    background-color: var(--text-color);
+    cursor: pointer;
 }

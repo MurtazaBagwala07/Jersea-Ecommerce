@@ -1,6 +1,7 @@
 .main-content-listing{
     display: flex;
     flex-direction: row;
+    font-family:var(--font);
 }
 
 .product-listing-main{

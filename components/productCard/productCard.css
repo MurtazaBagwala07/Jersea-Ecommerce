@@ -33,6 +33,14 @@
     background-color:var(--primary-color);
     color:var(--text-color);
     cursor: pointer;
+    font-family: var(--font);
+}
+
+.prod-card-cartbtn:hover{
+    font-size: 1.25rem;
+    font-weight: bolder;
+    background-color:var(--text-color);
+    color: var(--primary-color);
 }
 
 .prod-card-wishlistbtn{

@@ -1,15 +1,16 @@
 @import url(../../css/colors.css);
 
 .sign-up-page{
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content:center;
     align-items:center;
+    font-family:var(--font);
 }
 
 .sign-in-container{
     width: 24rem;
-    background-color: white;
+    background-color: var(--text-color);
     display: flex;
     flex-direction: column;
     justify-content:space-around;
@@ -50,8 +51,8 @@
 
 
 .sign-in-login{
-    background-color: rgb(14, 78, 216);
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--text-color);
     
 }
 
