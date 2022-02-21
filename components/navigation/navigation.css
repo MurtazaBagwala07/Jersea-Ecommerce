@@ -15,6 +15,16 @@
     padding: 0rem 4rem;
     justify-content: space-between;
     align-items:center;
+    font-family: var(--font);
+}
+
+.search-btn{
+    color: var(--primary-color);
+    outline:none;
+    border: none;
+    padding: 0.5rem;
+    font-size:1rem;
+    background-color:var(--text-color)
 }
 
 .ecom-nav-title{
@@ -22,11 +32,21 @@
 }
 
 .ecom-nav-searchbar{
-    height:2rem;
-    width: 15rem;
+    height: 2.7rem;
+    width: 20rem;
     outline:none;
     border: none;
-    padding: 1rem;
+    background-color: var(--text-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ecom-nav-searchbar-input{
+    border: none;
+    outline: none;
+    padding:0.5rem;
+    width:12rem;
 }
 
 .ecom-nav-action-btn{
@@ -38,4 +58,17 @@
     background-color:var(--text-color);
     width:4rem;
     height:2rem;
+    color:var(--primary-color);
+    font-size:1rem;
+}
+
+.ecom-nav-action-btns{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ecom-nav-icon{
+    color: var(--primary-color);
 }
